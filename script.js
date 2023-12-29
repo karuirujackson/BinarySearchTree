@@ -1,3 +1,4 @@
+//This script generates ten random numbers to be added to an existing binary tree with an initial value of 15
 const BinaryTree = require('./BinaryTree');
 const randomize = () => Math.floor(Math.random() * 40);
 const bt = new BinaryTree(15);
